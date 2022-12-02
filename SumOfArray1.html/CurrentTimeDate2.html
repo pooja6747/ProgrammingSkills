@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Current time and Date</h1>
+    <script>
+        // program to display the date
+// get local machine date time
+const date = new Date();
+
+// get the date as a string
+const n = date.toDateString();
+
+// get the time as a string
+const time = date.toLocaleTimeString();
+
+// display date
+console.log('Date: ' + n);
+
+// display time
+console.log('Time: ' + time);
+
+const date1 = new Date();
+console.log(date1);
+
+const n1 = date.toDateString();
+console.log(n); // Wed Aug 26 2020
+
+const time1 = date.toLocaleTimeString();
+console.log(time1); // 1:13:12 PM
+    </script>
+    
+</body>
+</html>
